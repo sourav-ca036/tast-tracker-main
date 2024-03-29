@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F10513927-beautiful-gradient-background-orange-blue-and-white-smooth-and-soft-texture&psig=AOvVaw3ka1HnoWCrhF4TSod6rkr3&ust=1711772788423000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPC95dnQmIUDFQAAAAAdAAAAABAJ'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  padding: 25px;
+}
+
+.filter, .tasks, .add-task {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #d61f1f;
+}
+
+th {
+  background-color: #b5abe7;
+}
+
+input[type="text"], input[type="date"], select {
+  margin-right: 15px;
+}
+
+.add-task button {
+  background-color: #2bca31;
+  color: rgb(163, 57, 57);
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #78c07b;
+}
+
+body {
+  background-color: #3b96be; /* Set the background color for the entire page */
+  margin: 25px; /* Remove default margin */
+  padding: 10px;
+}
+
+.task-tracker {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: #be1313; /* Set background color for the task tracker section */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(74, 35, 173, 0.1); /* Add shadow for a card-like effect */
+}
+
+.add-task-form {
+  width: 40%;
+}
+
+.add-task-form input,
+.add-task-form textarea,
+.add-task-form select,
+.add-task-form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.task-list {
+  width: 55%;
+}
+
+.task-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-list th,
+.task-list td {
+  border: 1px solid #cf3535;
+  padding: 15px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.task-list th:hover {
+  background-color: #bb2f2f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
